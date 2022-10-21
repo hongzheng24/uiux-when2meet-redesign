@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>"When2meet"</title>
+        
+        <link href="styles.css" rel="stylesheet" type = "text/css">
+        <link href='https://fonts.googleapis.com/css?family=Quicksand' rel="stylesheet">
+    </head>
+
+    <body class = "body">
+        <div class = "main-div" id = "heading-main-div">
+            <h1 id = "heading-h1">When<span id="heading-span">2</span>meet</h1>
+            <div id = "heading-div-1">
+                <h6 class = "heading-h6" id = "home-nav">Home</h6>
+                <h6 class = "heading-h6">About</h6>
+                <h6 class = "heading-h6">Donate</h6>
+            </div>
+        </div>
+
+        <div class = "main-div" id = "body-main-div">
+            <!--Section 1: Event Name-->
+            <div class = "section-div" id = "section-1-div-1" style = "margin-top: 2%;">
+                <h3>What is your event name?</h3>
+            </div>
+            
+            <div class = "section-div" id = "section-1-div-2" style = "margin-bottom: 5%;">
+                <input class = "text-box" type = "text" id = "section-1-input" placeholder="Event Name" style = "font-size: 20px;" alt="event name"></input>
+            </div>
+            
+            <!--Section 2: Event Calendar-->
+            <div class = "section-div" id = "section-2-div-1" style = "margin-bottom: 2%;">
+                <h3>What days do you want to meet?</h3>
+            </div>
+
+            <div class = "section-div" id = "section-2-div-2" style = "margin-bottom: 4%;">
+                <div class="month" style = "font-size: 20px;">
+                    <ul>
+                      <li class="prev">&#10094;</li>
+                      <li class="next">&#10095;</li>
+                      <li>October 2021</li>
+                    </ul>
+                </div>
+                  
+                <ul class="weekdays" style = "font-size: 18px;">
+                    <li><span class="weekday-span-1">Sun</span><span class="weekday-span-2">S</span></li>
+                    <li><span class="weekday-span-1">Mon</span><span class="weekday-span-2">M</span></li>
+                    <li><span class="weekday-span-1">Tue</span><span class="weekday-span-2">T</span></li>
+                    <li><span class="weekday-span-1">Wed</span><span class="weekday-span-2">W</span></li>
+                    <li><span class="weekday-span-1">Thu</span><span class="weekday-span-2">T</span></li>
+                    <li><span class="weekday-span-1">Fri</span><span class="weekday-span-2">F</span></li>
+                    <li><span class="weekday-span-1">Sat</span><span class="weekday-span-2">S</span></li>
+                    
+                </ul>
+                
+                <ul class="days">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li>1</li>
+                </ul>
+
+                <ul class="days">
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                </ul>
+
+                <ul class="days">
+                    <li>9</li>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                </ul>
+
+                <ul class="days">
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li><span class="active">21</span></li>
+                    <li>22</li>
+                </ul>
+
+                <ul class="days">
+                    <li>23</li>
+                    <li>24</li>
+                    <li>25</li>
+                    <li>26</li>
+                    <li>27</li>
+                    <li>28</li>
+                    <li>29</li>
+                </ul>
+
+                <ul class="days">
+                    <li>30</li>
+                    <li>31</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul> 
+            </div>
+            
+            <!--Section 3: Event Time-->
+            <div class = "section-div" id = "section-3-div-1">
+                <h3>What times do you want to meet?</h3>
+            </div>
+
+            <div class = "section-div" id = "section-3-div-2" style = "margin-bottom: 5%;">
+                <input class = "time-input" type = "text" id = "section-3-input-1" placeholder="9:00 AM" alt="start time of event time range"></input>
+                <a id = "section-3-a" style="margin-left: .5%; margin-right: .5%;">to</a>
+                <input class = "time-input" type = "text" id = "section-3-input-2" placeholder="5:00 PM" alt="end time of event time range"></input>
+            </div>
+
+            <!--Section 4: Create Event-->
+            <div class = "section-div" id = "section-4-div" style = "margin-bottom: 3%;">
+                <button alt="create event">Create Event</button>
+            </div>
+        </div>
+
+    </body>
+</html>

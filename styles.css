@@ -1,0 +1,211 @@
+:root {
+    --color1: white;
+    --color2: black;
+    --color3: #0bba0b;
+}
+html {
+    display: flex;
+    justify-content: center;
+}
+
+*{
+    margin: 0;
+}
+
+.body {
+    display: block;
+    background-color: var(--color1);
+    width: 100%;
+    font-family: "Quicksand", Verdana, Arial, sans-serif;
+    font-size: 22px;
+}
+
+#heading-main-div {
+    background-color: var(--color2);
+    color: var(--color1);
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#body-main-div {
+    background-color: var(--color1);
+}
+
+.section-div {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+#heading-h1 {
+    background-color: var(--color2);
+    margin-left: 3%;
+}
+
+#heading-div-1 {
+    display: inline-flex;
+    margin-right: 6%;
+}
+
+.heading-h6 {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+#home-nav {
+    color: var(--color3);
+}
+
+#heading-span {
+    color: var(--color3)
+}
+
+#section-2-div-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#section-3-a {
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+button {
+    font-family: "Quicksand", Verdana, Ariel, sans-serif;
+    font-size: 22px;
+    background-color: var(--color3);
+    color: var(--color1);
+    border: 0;
+    border-radius: 6px;
+    padding: 1%
+}
+
+#section-1-input {
+    width: 25%;
+    border: none;
+    border-bottom: 2px solid var(--color3);
+    font-family: "Quicksand", Verdana, Ariel, sans-serif;
+    font-size: 22px;
+}
+
+.time-input {
+    width: 10%;
+    border: none;
+    border-bottom: 2px solid var(--color3);
+    font-family: "Quicksand", Verdana, Ariel, sans-serif;
+    font-size: 20px;
+}
+
+ul {list-style-type: none;}
+
+/* Month header */
+.month {
+    /* padding: 70px 25px; */
+    width: 100%;
+    background: var(--color1);
+    text-align: center;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: var(black);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(--color1);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.weekdays li {
+    display: inline-flex;
+    width: 13.6%;
+    color: var(--color2);
+    text-align: center;
+    justify-content: center;
+}
+
+/* Days (1-31) */
+.days {
+    width: 100%;
+    padding: 10px 0;
+    background: var(--color1);
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: var(--color2);
+    justify-content: center;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    padding: 5px;
+    border-radius: 50%;
+    background: var(--color3);
+    color: var(--color1) !important
+}
+
+.weekday-span-2 {
+    display: none;
+}
+
+.days {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+
+    .weekday-span-1 {
+        display: none;
+    }
+
+    .weekday-span-2 {
+        display: flex;
+    }
+
+    .heading-h6 {
+        display: none;
+    }
+}
